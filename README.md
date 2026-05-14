@@ -1,17 +1,17 @@
-# MagicBricks Real Estate Analytics Dashboard 
+# MagicBricks Real Estate Analysis Dashboard 🏠
 
 ## Project Overview
 
-This project is an interactive **MagicBricks Real Estate Analytics Dashboard** built using **Power BI** to analyze property pricing trends, locality insights, furnishing preferences, and real estate patterns through dynamic and interactive visualizations.
+This project is an interactive **MagicBricks Real Estate Analysis Dashboard** built using **Power BI** to analyze property pricing trends, locality insights, furnishing preferences, and district-wise real estate patterns through dynamic and interactive visualizations.
 
-The dashboard focuses on:
+The dashboard helps users explore:
 
-* Property price analysis
-* Locality and district insights
-* Furnishing status analysis
-* BHK distribution patterns
-* Price per square feet analysis
-* Property type comparison
+* Property pricing trends
+* District-wise property distribution
+* Furnishing analysis
+* BHK insights
+* Location-based property analysis
+* Area and parking insights
 
 The dashboard was designed using a **modern real-estate inspired UI theme** to create a clean and professional analytical experience.
 
@@ -36,17 +36,16 @@ The dataset contains information about real estate properties including:
 * District
 * Furnishing Status
 * BHK Details
-* Price
+* Property Price
 * Area (sqft)
+* Parking Availability
 * Price per sqft
-* Property Status
 
 ---
 
 # Dashboard Walkthrough Video
 
 https://drive.google.com/file/d/1NoL8wGu1t9WL4uB16Ud7VHRivTNHb9mm/view?usp=drive_link
-
 ---
 
 # Dashboard Structure
@@ -55,79 +54,83 @@ The dashboard is divided into 4 analytical pages.
 
 ---
 
-# Page 1 – Overview Dashboard
+# Page 1 – Home Page
+
+This page acts as the landing page for dashboard navigation and project introduction.
+
+### Key Highlights:
+
+* MagicBricks themed landing page
+* Navigation buttons for all dashboard sections
+* Dashboard branding and UI design
+* Interactive page navigation
+
+<img width="971" height="729" alt="image" src="https://github.com/user-attachments/assets/f23c520e-ffdc-45f2-846e-83856260ad2e" />
+
+---
+
+# Page 2 – Overview Analysis
 
 This page provides a high-level summary of the real estate dataset.
 
 ### Key Highlights:
 
-* Total Properties KPI
+* Total Locality KPI
 * Average Price KPI
+* Average Area KPI
 * Average Price/sqft KPI
+* Properties by District
 * Furnishing Status Analysis
-* District-wise Filtering
-* Property Type Distribution
+* BHK Distribution
 * Interactive Slicers
 
-<img width="1169" height="651" alt="image" src="https://github.com/user-attachments/assets/fc3c8b95-9ad5-4cd4-b295-fe16d7318385" />
+<img width="1315" height="729" alt="image" src="https://github.com/user-attachments/assets/304d2ced-3269-44f4-b4d4-741c9a654304" />
+
+---
+
+# Page 3 – Price Analysis
+
+This page focuses on pricing trends and property value analysis.
+
+### Key Highlights:
+
+* Highest Property Price
+* Lowest Property Price
+* Average Price KPI
+* Average Price/sqft KPI
+* Price vs Area Analysis
+* Average Price by BHK
+* Price Distribution
+* Average Price/sqft by District
+
+<img width="1325" height="736" alt="image" src="https://github.com/user-attachments/assets/e6bf8f8e-d957-4271-b186-8ac2d2dff3cc" />
 
 
 ---
 
-# Page 2 – Pricing Analysis
+# Page 4 – Location Analysis
 
-This page focuses on property pricing trends and comparisons.
-
-### Key Highlights:
-
-* Locality-wise Price Analysis
-* Price vs Area Comparison
-* BHK-wise Price Trends
-* Property Pricing Distribution
-* Interactive Pricing Filters
-
-<img width="1158" height="668" alt="image" src="https://github.com/user-attachments/assets/e918f43f-0906-4410-a6d7-f67cbba6fc18" />
-
-
----
-
-# Page 3 – Property Insights
-
-This page analyzes property characteristics and user preferences.
+This page focuses on location-based property insights and district analysis.
 
 ### Key Highlights:
 
-* Furnishing Status Distribution
-* BHK Category Insights
-* Property Type Analysis
-* District-wise Property Trends
-* Interactive Property Exploration
+* Total Locations KPI
+* Total District KPI
+* Average Area KPI
+* Average Parking KPI
+* Parking Availability Analysis
+* Property Value by Location Map
+* Count of Locality by Furnishing
+* Average Area by District
 
-<img width="1166" height="653" alt="image" src="https://github.com/user-attachments/assets/b5017f7b-ee05-4674-aa32-da719ba70c1a" />
-
----
-
-# Page 4 – Summary Dashboard
-
-This page provides consolidated business insights and pricing summaries.
-
-### Key Highlights:
-
-* Total Price Overview
-* Average Price Analysis
-* Price per sqft Insights
-* Property Distribution Analysis
-* Comparative Visualizations
-* Interactive Summary Insights
-
-<img width="1165" height="652" alt="image" src="https://github.com/user-attachments/assets/4c3dbaa9-7fd0-44ef-bab9-aa9e7cfbb3e0" />
+<img width="1312" height="733" alt="image" src="https://github.com/user-attachments/assets/e29fc1af-5a1e-447b-bd4e-174a7e084e40" />
 
 
 ---
 
 # Dashboard Design Approach
 
-The dashboard was designed to combine real-estate analytics with interactive visual storytelling. Each page focuses on a different analytical perspective, helping users explore property trends, locality insights, pricing behavior, and furnishing patterns efficiently.
+The dashboard was designed to combine real-estate analytics with interactive visual storytelling. Each page focuses on a different analytical perspective, helping users explore pricing trends, locality insights, district analysis, and furnishing patterns efficiently.
 
 Special attention was given to:
 
@@ -146,18 +149,18 @@ Special attention was given to:
 * Drill-down analysis
 * Real-estate inspired UI design
 * KPI Cards & Visual Insights
-* Cross-page filtering
+* Cross-page navigation
 * Interactive visual storytelling
 
 ---
 
 # Key Insights
 
-* Property prices vary significantly across districts and localities.
-* Furnished properties generally show higher pricing trends.
-* Certain BHK categories dominate the listings market.
-* Price per sqft differs considerably between premium and standard areas.
-* Locality plays a major role in property pricing patterns.
+* South Delhi contains the highest number of listed properties.
+* Semi-furnished properties dominate the dataset.
+* Higher BHK configurations generally show higher average prices.
+* Property prices vary significantly across districts.
+* Location and furnishing status strongly influence property pricing.
 
 ---
 
@@ -171,3 +174,6 @@ Through this project, I improved my skills in:
 * Data Visualization
 * Analytical Storytelling
 * Dashboard UI Design
+* Interactive Report Building
+
+
