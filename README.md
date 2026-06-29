@@ -64,10 +64,8 @@ This page acts as the landing page for dashboard navigation and project introduc
 * Navigation buttons for all dashboard sections
 * Dashboard branding and UI design
 * Interactive page navigation
+![Uploading image.png…]()
 
-<img width="971" height="729" alt="image" src="https://github.com/user-attachments/assets/f23c520e-ffdc-45f2-846e-83856260ad2e" />
-
----
 
 # Page 2 – Overview Analysis
 
